@@ -2,7 +2,7 @@ import glob
 import pandas as pd
 
 # get data file names
-path =r'C:\Users\62547\PycharmProjects\input files'
+path =r'C:\Users\62547\PycharmProjects\input files'#please change to your own path
 filenames = glob.glob(path + "/*.csv")
 dfs=[pd.read_csv('s1 - Sheet1.csv', usecols=[0])]
 for filename in filenames:
